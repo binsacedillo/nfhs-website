@@ -1,0 +1,33 @@
+html {
+    background: linear-gradient(to bottom, #FFC0CB, #FFFFFF);
+    background-repeat: no-repeat;
+    height: auto;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-family: Verdana;
+    font-style: italic;
+    font-size: 60px;
+    text-align: center;
+}
+
+button {
+    font-family: Garamond;
+    display: block;
+    margin: 0 auto;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FF66CC;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
