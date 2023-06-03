@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #FCE4EC;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+    button {
+      background-color: #F06292;
+      border: none;
+      border-radius: 30px;
+      color: white;
+      font-size: 22px;
+      padding: 15px 30px;
+      cursor: pointer;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: background-color 0.2s;
+    }
+    button:hover {
+      background-color: #E91E63;
+    }
+  </style>
+  <script>
+    function buttonClicked() {
+      alert("Alert box!");
+      if (confirm("Confirm box?")) {
+        const result = prompt("Prompt box, enter some text!");
+        if (result !== null) {
+          alert(`You entered: ${result}`);
+        }
+      }
+    }
+  </script>
+</head>
+<body>
+  <button onclick="buttonClicked()">Click me!</button>
+</body>
+</html>
